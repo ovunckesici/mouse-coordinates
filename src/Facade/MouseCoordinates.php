@@ -1,6 +1,6 @@
 <?php
 
-namespace Doranetyazillim\MouseCoordinates;
+namespace Doranetyazillim\MouseCoordinates\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
