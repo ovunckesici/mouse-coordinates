@@ -1,10 +1,10 @@
-# Very short description of the package
+# Mouse Coordintaes
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/doranetyazillim/mouse-coordinates.svg?style=flat-square)](https://packagist.org/packages/doranetyazillim/mouse-coordinates)
 [![Total Downloads](https://img.shields.io/packagist/dt/doranetyazillim/mouse-coordinates.svg?style=flat-square)](https://packagist.org/packages/doranetyazillim/mouse-coordinates)
 ![GitHub Actions](https://github.com/doranetyazillim/mouse-coordinates/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Docs soon...
 
 ## Installation
 
@@ -17,7 +17,7 @@ composer require doranetyazillim/mouse-coordinates
 ## Usage
 
 ```php
-// Usage description here
+    MouseCoordinates::make($data)->toResponse();
 ```
 
 ### Testing
@@ -46,7 +46,3 @@ If you discover any security related issues, please email ovunckesici@protonmail
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
