@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \Doranetyazillim\MouseCoordinates\Skeleton\SkeletonClass
  */
-class MouseCoordinatesFacade extends Facade
+class MouseCoordinates extends Facade
 {
     /**
      * Get the registered name of the component.
