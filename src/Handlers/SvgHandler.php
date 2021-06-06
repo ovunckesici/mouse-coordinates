@@ -46,8 +46,10 @@ class SvgHandler extends BaseHandler
         $coords->each(function (Point $item) use (&$split, &$group) {
             if ($item->type() === 2) {
                 $group++;
-            } else {
+            } elseif($item->type() === 1) {
                 $split[$group][] = $item;
+            } else {
+                // do nothing
             }
         });
 
